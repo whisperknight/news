@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/*
+	友情链接样式
+*/
+.link {
+	background-color: #323041;
+	padding: 50px 100px 50px 100px;
+}
+
+.link-header {
+	font-size: 30px;
+	color: white;
+}
+
+.link-body {
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.link-body ul li {
+	float: left;
+	margin: 0px 15px 0px 0px;
+}
+
+.link-body ul li a {
+	color: white;
+}
+
+/*
+	底部foot样式
+*/
+.foot {
+	background-color: #848287;
+	padding: 30px 100px 20px 100px;
+}
+
+.foot p {
+	color: #ecebef;
+	text-align: center;
+}
+
+/*
+	新闻表格样式
+*/
+.table-news-list {
+	margin-left: 10px;
+}
+
+.table-news-list tr td {
+	padding: 0px 10px 8px 0px;
+}
+
+/*
+	用div固定轮播图片大小
+*/
+.carousel-img a img {
+	height: 282px;
+	width: 500px;
+}
+
+/*
+	横幅背景
+*/
+.head-banner {
+	margin: 50px 0px 20px 0px;
+	padding-top: 25px;
+	height: 200px;
+	background: url("../image/background.png");
+	text-align: center;
+}
+
+.head-banner a {
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+}
+
+.head-banner a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.head-banner div {
+	width: 300px;
+	height: 4px;
+	background-color: white;
+	margin: 5px auto 10px auto;
+}
+
+.head-banner p {
+	color: white;
+	font-size: 20px;
+}
+
+/*
+	后台管理主页背景
+*/
+.back-main-background {
+	background: url('../image/back-main.png');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: bottom right;
+	background-size: 400px;
+	height: 600px;
+}
